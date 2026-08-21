@@ -1,5 +1,5 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: 21/08/2026
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -112,10 +112,28 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17cf24ea-58a0-41ea-a77a-277f0d44002a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/18f93d7c-cfb8-47d1-babc-90a112d8edac" />
+
+
 •	show ip route on R1 and R2<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/46dcb0c6-01af-43be-8ab7-8cbe7cf442ba" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/46e44071-189d-4c0b-8df6-e02d172879e2" />
+
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+# PC1 → PC4
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eed372c9-213d-45af-a92e-f8eefcf2c566" />
+
+# R2 → PC2
+
+
 •	Interface up messages after no shutdown on each link <br>
-________________________________________<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/225d1a3f-cb0a-41d2-a5b8-0a332a32ee3b" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aced0592-c0a1-46fc-bd93-aff070459782" />
+
+________________________________________
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
 
